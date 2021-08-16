@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    width: 180px;
+    height: 40px;
+    background-image: url(../imagenes/logo180x40.png);
+    background-repeat: no-repeat;
+    font-size: 0;
+    position: absolute;
+    top: 17px;
+    left: 10px;
+    z-index: 1;
+}
+header{
+    border-bottom: #f8f9fa 0.2rem solid;
+}
+
+#barra ul li a:hover {
+    text-decoration: line-through 2px #ba3434f5;;
+}
+
+.jumbotron {
+    background-image: url(../imagenes/banner1024x350.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    opacity: 1;
+    padding-top: 3rem;
+}
+
+.jumbotron  #contactarme {
+    background-color: #8c0004; 
+    color: white;
+    border-radius: 6px;
+    padding: 0.3em;
+    margin-left: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.jumbotron  #contactarme:hover{
+    text-decoration: line-through 2px #ba3434f5; 
+}
+ 
+/*main */
+
+main {
+    margin-bottom: 2.5rem;
+}
+
+.card {
+    background-color: #f4f3ee;
+    margin-top: 2em;
+    margin-bottom: 2.5em;
+ 
+}
+.card h3, p{
+    text-align: center;
+}
+
+h2 {
+    color: #8c0004;
+    font-size: 2.3em;
+    text-transform: uppercase;
+}
+.card div p a { 
+    text-decoration: none;
+    color: #8c0004;
+     margin:auto;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.proyectos card {
+    background-color: black;
+}
+
+/* Empieza el footer*/ 
+
+footer {
+    background-color: grey;
+    padding-top:3rem;
+}
+
+.cajaForm{
+    margin: auto;
+    max-width: 70%;
+    border:2px solid #8c0004;
+    border-radius: 3px;
+    box-shadow: 5px 8.7px 40px #B58278;
+    margin-top: 7em;
+    margin-bottom: 5em;
+}
+#formulario {
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+.botones{
+    padding-bottom: 1rem;
+}
+
+.botones input {
+   width: 100px;
+}
+
+aside h2 {
+    padding-top: 0.5rem;
+}
+
+
+#redes a {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+#redes a:hover {
+    box-shadow: 5px 8px 50px #8c0004;
+}
+#fb{
+    background-image: url(../imagenes/fb.png);
+    background-repeat: no-repeat;
+    font-size: 0;
+}
+
+#ig{
+    background-image: url(../imagenes/ig.png);
+    background-repeat: no-repeat;
+    font-size: 0;
+}
+
+#ln {
+    background-image: url(../imagenes/linkedin.png);
+    background-repeat: no-repeat;
+    font-size: 0;
+}
+
+details summary {
+    outline:none; 
+    cursor:pointer
+}
+
+
+@media (max-width: 576px) {
+  
+    main p {
+        font-size: 1.5rem;
+        margin:auto;
+    }
+    ul #redes li {
+        display: flex;
+        border: 1px solid black;
+    }
+    
+     .jumbotron {
+    background-image: url(../imagenes/banner768x350.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    opacity: 1;
+    padding-top: 3rem;
+    }
+    
+}
+
+@media (min-width: 577px) and (max-width: 767.98px) { 
+    main p {
+        font-size: 1.5rem;
+        margin:auto;
+    }
+    
+     .jumbotron {
+    background-image: url(../imagenes/banner768x350.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    opacity: 1;
+    padding-top: 3rem;
+}
+    
+    
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .jumbotron {
+    background-image: url(../imagenes/banner768x350.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    opacity: 1;
+    padding-top: 3rem;
+}
+
+}
