@@ -2,6 +2,6 @@
 
 Hi! It's my updated portfolio and I will continue adding more projects.
 
-### How  to see the proyect? 
+### How  to see my proyects? 
 
-Click  the next link: https://unruffled-ride-70fa33.netlify.app/
+Click  the next link: https://deborapaniagua.netlify.app/
